@@ -7,7 +7,7 @@ AlarmClock::AlarmClock() :
 
 AlarmClock& AlarmClock::setTime(int hours, int minutes) {
     this->hours = hours;
-    this->minutes = minutes;
+    this->minutes = minutes; 
     return *this;
 }
 
